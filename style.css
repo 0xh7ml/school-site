@@ -1,0 +1,678 @@
+ @import url('https://fonts.googleapis.com/css2?family=Baloo+Da+2:wght@400;500;600;700;900&display=swap');
+body {
+  margin: 0;
+  font-family: 'Baloo Da 2', cursive;
+  background-color: #ffffff;
+}
+header {
+  background-color: #ffffff;
+  height: 86px;
+}
+.logo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.logo > img {
+  height: 40px;
+}
+.logo-text {
+  font-size: 24px;
+  color: #ffffff;
+  margin-left: 10px;
+}
+nav > ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #ffffff;
+  font-size: 22px;
+  column-gap: 36px;
+}
+a,
+li{
+  text-decoration: none;
+  list-style-type: none;
+  color: #e7541a;
+  font-weight: 600;
+}
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  column-gap: 36px;
+  height: 86px;
+
+}
+.nav-container {
+  width: 1200px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+}
+.container-card{
+  width: 1250px;
+  margin: 0 auto;
+  background-color: #ffffff;
+  margin-bottom: 20px;
+  border: hidden;
+  border-radius: 15px;
+  box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+  box-sizing: border-box;
+}
+h2 {
+  color: #0093ff;
+  font-weight: 900;
+  font-size: 24px;
+  margin-left: 36px;
+  padding-top: 20px;
+}
+
+.wrap-card {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+.card img {
+  width: 100%;
+}
+.card {
+  background-color: #ffffff;
+  border: hidden;
+  border-radius: 15px;
+  box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+  box-sizing: border-box;
+  padding: 10px;
+  width: 350px;
+}
+.card p {
+  font-family: "Baloo Da 2";
+  font-size: 22px;
+  color: #1e1e1e;
+  font-weight: 700;
+  text-align: center;
+}
+.blog-thumb img {
+  width: 177px;
+}
+.blog-card {
+  box-sizing: border-box;
+  padding: 20px;
+  display: flex;
+  column-gap: 10px;
+  align-items: center;
+  flex-basis: 50%;
+}
+.blog-details p {
+  font-family: "Baloo Da 2";
+  font-size: 20px;
+}
+.author {
+  font-family: "Baloo Da 2";
+  font-size: 16px;
+  color: #9f9f9f;
+}
+span > a {
+  color: #0093ff;
+}
+.blog-details {
+  margin-top: -25px;
+}
+.wrap-blog {
+  display: flex;
+  flex-wrap: wrap;
+}
+.card-player {
+  box-sizing: border-box;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  column-gap: 15px;
+  flex-wrap: wrap;
+}
+.players a {
+  font-family: "Baloo Da 2";
+  font-size: 18px;
+  color: #000000;
+}
+.card-player > .thumb img {
+  width: 56px;
+  height: auto;
+}
+.wrap-player {
+  display: flex;
+  justify-content: space-between;
+
+  flex-basis: 50%;
+  align-items: stretch;
+}
+hr {
+  width: 807px;
+  height: 0;
+  color: #d1d1d1;
+}
+.rating > .checked {
+  color: #ffc014;
+  font-size: 22px;
+  font-weight: 900;
+}
+.time {
+  background-color: #ffeae3;
+  box-sizing: border-box;
+  height: auto;
+  width: 95px;
+  border: hidden;
+  border-radius: 100px;
+  font-family: "Baloo Da 2";
+  font-size: 18px;
+  color: #f14b2a;
+  font-weight: 900;
+  text-align: center;
+  padding: 3px;
+}
+.rating-digit span {
+  font-size: 22px;
+  color: #a2a2a2;
+  font-weight: 900;
+}
+.rating span {
+  color: #aeaeae;
+  font-size: 22px;
+}
+.wrap-details {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.post-author a {
+  color: #ed6b4f;
+  font-size: 15px;
+}
+.footer{
+    background-color: #0B0D17;
+    font-family: 'Baloo Da 2';
+    padding: 37px 0;
+    text-align: center;
+}
+.footer>p{
+    color: azure;
+    font-family: 'Baloo Da 2';
+    font-weight: 700;
+    
+}
+.bold-text{
+    color: #e7541a!important;
+    font-family: 'Baloo Da 2';
+    font-weight: 900;
+}
+.footer span{
+    color: #0093ff;
+}
+.profile{
+    text-decoration: none;
+    list-style-type: none;
+    color: #e7541a;
+    font-weight: 600;
+    font-size: 22px;
+}
+/* Food Network Source */
+/* .container-three{
+    width: 100%;
+    margin: auto;
+    background-color: #ffffff;
+    margin-bottom: 20px;
+}
+.row-first{
+    display: flex;
+    }
+.col-left{
+        float: left;
+    }
+.col-right{
+        text-align: left!important;
+        margin: 80px;
+        margin-left: 250px;
+}
+    .row-first>.col-right>h1{
+        color: #5B5B5B;
+        font-family: 'Baloo Da 2';
+        font-weight: 900;
+        font-size: 30pt;
+    }
+    .third-image{
+        width: 100%;
+        height: 100%;
+    }
+    .btn-danger-upper{
+        background-image: linear-gradient(to right,  #e7541a, rgb(216, 77, 42));
+        color: #ffffff;
+        font-family: 'Baloo Da 2';
+        font-size: 18px;
+        font-weight: 700;
+        border: none;
+        border-radius: 100px;
+        padding: 10px;
+        margin-top: 40px;
+    }
+    .btn-danger-upper:hover{
+        background-image: linear-gradient(to right, rgb(185, 3, 3), rgb(184, 2, 47));
+    }
+.text-center{
+    text-align: center!important;
+    font-size: 32pt;
+    font-weight: 900;
+    color: #e7541a;
+    }
+    .container-second{
+        width: 1250px;
+        margin: auto;
+        margin-bottom: 20px;
+    }
+    p{
+        color:#0B0D17;
+        font-family: 'Baloo Da 2';
+        font-size: 18px;
+        font-weight: 600;
+    }
+.row-second{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+.second-section{
+    background-image: url("https://raw.githubusercontent.com/ProgrammingHero1/food-network/main/images/shapes/7.png");
+    background-size: cover;
+
+}
+.second-image{
+    margin: 50px;
+    margin-left: 250px;
+}
+.row-third{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+.container-two{
+    width: 100%;
+    margin: auto;
+    margin-bottom: 20px;
+}
+.about-text{
+    font-size: 32pt;
+    font-weight: 900;
+}
+.fa-check{
+    color: #27b737;
+    background-color: #d1e7d4;
+    padding: 4px;
+    border-radius: 5px;
+    margin: 0;
+    top: 8px;
+
+}
+.about-list>li{
+line-height: 30px;
+}
+.about-list{
+    padding: 0;
+}
+.fa-graduation-cap{
+color: #8f41b0;
+background: #efe0f5;
+padding: 24px;
+margin-top: 12px;
+border-radius: 5px;
+}
+.fa-user{
+color: #27b737;
+background: #d1e7d4;
+padding: 24px;
+margin-top: 12px;
+border-radius: 5px;
+}
+
+.fa-group{
+color: #ff5722;
+background: #ffeae3;
+padding: 24px;
+margin-top: 12px;
+border-radius: 5px;
+}
+.course-button{
+    text-align: center;
+    padding: 25px;
+}
+.about-info{
+    color: grey;
+    position: relative;
+    left: 4px;
+}
+.patshala{
+    color: #0093ff;
+} */
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Da+2:wght@400;500;600;700;900&display=swap');
+body {
+  margin: 0;
+  font-family: 'Baloo Da 2', cursive;
+  background-color: #ffffff;
+}
+header {
+  background-color: #ffffff;
+  height: 86px;
+}
+.logo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.logo > img {
+  height: 40px;
+}
+nav > ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #ffffff;
+  font-size: 22px;
+  column-gap: 36px;
+}
+a,
+li{
+  text-decoration: none;
+  list-style-type: none;
+  color: #e7541a;
+  font-weight: 600;
+}
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  column-gap: 36px;
+  height: 86px;
+
+}
+.nav-container {
+  width: 1200px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+}
+.container-card{
+  width: 1250px;
+  margin: 0 auto;
+  background-color: #ffffff;
+  margin-bottom: 20px;
+  border: hidden;
+  border-radius: 15px;
+  box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+  box-sizing: border-box;
+}
+h2 {
+  color: #0093ff;
+  font-weight: 900;
+  font-size: 24px;
+  margin-left: 36px;
+  padding-top: 20px;
+}
+
+.wrap-card {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+.card img {
+  width: 100%;
+}
+.card {
+  background-color: #ffffff;
+  border: hidden;
+  border-radius: 15px;
+  box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+  box-sizing: border-box;
+  padding: 10px;
+  width: 350px;
+}
+.card p {
+  font-family: "Baloo Da 2";
+  font-size: 22px;
+  color: #1e1e1e;
+  font-weight: 700;
+  text-align: center;
+}
+.rating > .checked {
+  color: #ffc014;
+  font-size: 22px;
+  font-weight: 900;
+}
+.time {
+  background-color: #ffeae3;
+  box-sizing: border-box;
+  height: auto;
+  width: 95px;
+  border: hidden;
+  border-radius: 100px;
+  font-family: "Baloo Da 2";
+  font-size: 18px;
+  color: #f14b2a;
+  font-weight: 900;
+  text-align: center;
+  padding: 3px;
+}
+.rating-digit span {
+  font-size: 22px;
+  color: #a2a2a2;
+  font-weight: 900;
+}
+.rating span {
+  color: #aeaeae;
+  font-size: 22px;
+}
+.wrap-details {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.footer{
+    background-color: #0B0D17;
+    font-family: 'Baloo Da 2';
+    padding: 37px 0;
+    text-align: center;
+}
+.footer>p{
+    color: azure;
+    font-family: 'Baloo Da 2';
+    font-weight: 700;
+    
+}
+.bold-text{
+    color: #e7541a!important;
+    font-family: 'Baloo Da 2';
+    font-weight: 900;
+}
+.footer span{
+    color: #0093ff;
+}
+.profile{
+    text-decoration: none;
+    list-style-type: none;
+    color: #e7541a;
+    font-weight: 600;
+    font-size: 22px;
+}
+/* Food Network Source */
+.container-three{
+    width: 100%;
+    margin: auto;
+    background-color: #ffffff;
+    margin-bottom: 20px;
+}
+.row-first{
+    display: flex;
+    }
+.col-left{
+        float: left;
+    }
+.col-right{
+        text-align: left!important;
+        margin: 80px;
+        margin-left: 250px;
+}
+    .row-first>.col-right>h1{
+        color: #5B5B5B;
+        font-family: 'Baloo Da 2';
+        font-weight: 900;
+        font-size: 30pt;
+    }
+    .third-image{
+        width: 100%;
+        height: 100%;
+    }
+    .btn-danger-upper{
+        background-image: linear-gradient(to right,  #e7541a, rgb(216, 77, 42));
+        color: #ffffff;
+        font-family: 'Baloo Da 2';
+        font-size: 18px;
+        font-weight: 700;
+        border: none;
+        border-radius: 100px;
+        padding: 10px;
+        margin-top: 40px;
+    }
+    .btn-danger-upper:hover{
+        background-image: linear-gradient(to right, rgb(185, 3, 3), rgb(184, 2, 47));
+    }
+.text-center{
+    text-align: center!important;
+    font-size: 32pt;
+    font-weight: 900;
+    color: #e7541a;
+    }
+    .container-second{
+        width: 1250px;
+        margin: auto;
+        margin-bottom: 20px;
+    }
+    p{
+        color:#0B0D17;
+        font-family: 'Baloo Da 2';
+        font-size: 18px;
+        font-weight: 600;
+    }
+.row-second{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+.second-section{
+    background-image: url("https://raw.githubusercontent.com/ProgrammingHero1/food-network/main/images/shapes/7.png");
+    background-size: cover;
+
+}
+.second-image{
+    margin: 50px;
+    margin-left: 250px;
+}
+.row-third{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+.container-two{
+    width: 100%;
+    margin: auto;
+    margin-bottom: 20px;
+}
+.about-text{
+    font-size: 32pt;
+    font-weight: 900;
+}
+.fa-check{
+    color: #27b737;
+    background-color: #d1e7d4;
+    padding: 4px;
+    border-radius: 5px;
+    margin: 0;
+    top: 8px;
+
+}
+.about-list>li{
+line-height: 30px;
+}
+.about-list{
+    padding: 0;
+}
+.fa-graduation-cap{
+color: #8f41b0;
+background: #efe0f5;
+padding: 24px;
+margin-top: 12px;
+border-radius: 5px;
+}
+.fa-user{
+color: #27b737;
+background: #d1e7d4;
+padding: 24px;
+margin-top: 12px;
+border-radius: 5px;
+}
+
+.fa-group{
+color: #ff5722;
+background: #ffeae3;
+padding: 24px;
+margin-top: 12px;
+border-radius: 5px;
+}
+.course-button{
+    text-align: center;
+    padding: 25px;
+}
+.about-info{
+    color: grey;
+    position: relative;
+    left: 4px;
+}
+.footer-img{
+  width:100%;
+}
+h4{
+  color: #ffffff;
+}
+.fa-facebook{
+margin: 7px;
+width: 50px;
+height: 50px;
+background: #fff2;
+font-size: 18px;
+border-radius: 4px;
+padding: 15px;
+}
+.fa-youtube-play{
+margin: 7px;
+width: 50px;
+height: 50px;
+background: #fff2;
+font-size: 18px;
+border-radius: 4px;
+padding: 15px;
+}
+.fa-instagram{
+margin: 7px;
+width: 50px;
+height: 50px;
+background: #fff2;
+font-size: 18px;
+border-radius: 4px;
+padding: 15px;
+}
+ul li{
+  display: inline-block;
+  margin: 5px;
+}
